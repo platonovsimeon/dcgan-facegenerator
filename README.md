@@ -10,4 +10,4 @@ I combined these two datasets:
 I do not own these datasets.
 
 # How to use this project:
-face_generator.py has functions for both the training models and generating images from trained models.
+face_generator.py has functions for training and generating new images from trained models.
