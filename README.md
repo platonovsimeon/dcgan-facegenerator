@@ -8,3 +8,6 @@ I combined these two datasets:
 2. https://www.kaggle.com/gasgallo/lag-dataset
 
 I do not own these datasets.
+
+# How to use this project:
+face_generator.py has functions for both the training models and generating images from trained models.
