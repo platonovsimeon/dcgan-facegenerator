@@ -232,8 +232,8 @@ class FaceGenerator:
                 axis[row,column].imshow(generated_images[image_count, :], cmap='spring')
                 axis[row,column].axis('off')
                 image_count += 1
-            figure.savefig("generated_images/generated_%d.png" % epoch)
-            plt.close()
+        figure.savefig("generated_images/generated_%d.png" % epoch)
+        plt.close()
 
     def generate_single_image(self,model_path,image_save_path):
         noise = np.random.normal(0,1,(1,self.random_noise_dimension))
